@@ -63,12 +63,15 @@ Get-AddUser kearl -Properties Title, Department, Enabled | Select Name, SamAccou
   <figure>
     <figcaption style="margin-top: 10px; color: #8b949e;"><em><img width="1019" height="477" alt="Screenshot 2026-10-20 184435" src="https://github.com/user-attachments/assets/a8a29939-6c32-4ec6-b629-e21e5e8f2c95" />
 
+
            
-##Little Note on Security
+## Little Note on Security
+
 -ChangePasswordAtLogon would normally be set to false so the user could use the temperary password but I chose to change it to true so that when they log in they windows will enact a new password increasing security posture
 -The password could be more complex but since this is a simple lab, the default password standards will be in place
 
-##What I learned
+## What I learned
+
 -Github syntax and powershell basic commands via Windows Server 2025
 -Setting up a new user via the gui will result in the same but powershell is faster
 -Verifying the accounts with 'Get-AdUser'
