@@ -14,7 +14,11 @@ This is a simple guide I created to make a new domain user in Active Directory u
 ```powershell
 'PS C:\Users\Username> Get-Service'
 ```
-Verify on Powershell
+<div align="center">
+  <h3>Verify on PowerShell</h3>
+  <br>
+  <img src="https://githubusercontent.com" alt="Verify on PowerShell" width="80%">
+</div>
 
 <img width="992" height="623" alt="1" src="https://github.com/user-attachments/assets/b88e7eeb-4ce6-4c3e-be31-49c407a0daf4" />
 
