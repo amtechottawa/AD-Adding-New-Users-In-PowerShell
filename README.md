@@ -40,19 +40,9 @@ Get-ADDomain | Select Object DNSRoot, DistinguishedName
 ### 3. Create the User
 
 ```powershell
-New-AdUser -Name 'Kenna Earl' `
-           -GivenName 'Kenna' `
-           -Surname 'Earl' `
-           -SamAccountName 'kearl' `
-           -UserPrincipalName 'kearl@AMTech.local' `
-           -Title 'Help Desk Support' `
-           -Department 'IT' `
-           -Path 'CN=Users, DC=AMTech, DC=local' `
-           -AccountPassword (Read-Host -AsSecureString 'Enter password')
-           -ChangePasswordAtLogon $true `
-           -Enabled \$true
-
+New-AdUser -Name 'Kenna Earl' -GivenName 'Kenna' -Surname 'Earl' -SamAccountName 'kearl' -UserPrincipalName 'kearl@AMTech.local' -Title 'Help Desk Support' -Department 'IT' -Path 'CN=Users,DC=AMTech,DC=local' -AccountPassword (Read-Host -AsSecureString 'Enter password') -ChangePasswordAtLogon true -Enabled true
 ```
+
 ![Active Directory User Created Successfully](screenshot/3.png)
 
 ### 4 Verify The Account
