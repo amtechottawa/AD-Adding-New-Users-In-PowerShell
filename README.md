@@ -19,7 +19,7 @@ This is a simple guide I created to make a new domain user in Active Directory  
 
 powershell
 
-Get-ADDomain | Select DNSRoot, DistinguishedName > Get-Service
+Get-ADDomain | Select DNSRoot, DistinguishedName
 
 ![Domain info](screenshot/2.png)
 
