@@ -42,7 +42,11 @@ New-AdUser -Name 'Kenna Earl' `
 ```
 ![Active Directory User Created Successfully](screenshot/3.png)
 
-
+### 4 Verify The Account
+```powershell
+Get-AddUser kearl -Properties Title, Department, Enabled | Select Name, SamAccountName, Title, Department, Enabled
+```
+![Verification of account](screenshots/4.png)
            
 
 
