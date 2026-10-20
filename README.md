@@ -17,7 +17,6 @@ This is a simple guide I created to make a new domain user in Active Directory  
 ### 2. Confirm the Domain
 
 'Get-ADDomain | Select DNSRoot, DistinguishedName > Get-Service'
-```
 ![Domain info](screenshot/1.png)
 
 ### 3. Create the User
