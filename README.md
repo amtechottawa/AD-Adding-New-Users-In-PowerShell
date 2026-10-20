@@ -14,7 +14,8 @@ This is a simple guide I created to make a new domain user in Active Directory u
 ```powershell
 'PS C:\Users\Username> Get-Service'
 ```
-![Verify on Powershell](screenshot/1.png)
+![Verify on Powershell](<img width="992" height="623" alt="1" src="https://github.com/user-attachments/assets/e95f81f3-1c83-4e43-ba33-a7e95cfa95c8" />
+)
 
 ### 2. Confirm the Domain
 
