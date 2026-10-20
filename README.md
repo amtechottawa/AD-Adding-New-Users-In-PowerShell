@@ -11,6 +11,7 @@ This is a simple guide I created to make a new domain user in Active Directory  
 ##Steps
 
 ### 1. Confirm user on powershell
+powershell
 PS C:\Users\Username> Get-Service
 
 ### 2. Confirm the Domain
