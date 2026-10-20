@@ -43,7 +43,8 @@ Get-ADDomain | Select Object DNSRoot, DistinguishedName
 New-AdUser -Name 'Kenna Earl' -GivenName 'Kenna' -Surname 'Earl' -SamAccountName 'kearl' -UserPrincipalName 'kearl@AMTech.local' -Title 'Help Desk Support' -Department 'IT' -Path 'CN=Users,DC=AMTech,DC=local' -AccountPassword (Read-Host -AsSecureString 'Enter password') -ChangePasswordAtLogon true -Enabled true
 ```
 
-![Active Directory User Created Successfully](screenshot/3.png)
+![Active Directory User Created Successfully](<img width="1027" height="767" alt="image" src="https://github.com/user-attachments/assets/21df9455-eabc-4f4a-ac04-b53cb99e8d59" />
+)
 
 ### 4 Verify The Account
 ```powershell
