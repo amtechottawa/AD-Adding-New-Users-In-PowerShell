@@ -29,8 +29,14 @@ This is a simple guide I created to make a new domain user in Active Directory u
 ```powershell
 Get-ADDomain | Select Object DNSRoot, DistinguishedName
 ```
-
-![Domain info](screenshot/2.png)
+<div align="center">
+  <figure>
+    <img src="https://githubusercontent.com" alt="Verify on PowerShell" width="80%">
+    <figcaption style="margin-top: 10px; color: #8b949e;"><em><img width="992" height="623" alt="1" src="<img width="994" height="627" alt="2" src="https://github.com/user-attachments/assets/f0a52b5e-1db3-42fd-9753-c16650036c63" />
+ />
+</em></figcaption>
+  </figure>
+</div>
 
 ### 3. Create the User
 
