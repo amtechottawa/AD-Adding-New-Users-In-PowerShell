@@ -31,9 +31,9 @@ Get-ADDomain | Select Object DNSRoot, DistinguishedName
 ```
 <div align="center">
   <figure>
-    <img src="https://githubusercontent.com" alt="Verify on PowerShell" width="80%">
-    <figcaption style="margin-top: 10px; color: #8b949e;"><em><img width="992" height="623" alt="1" src="https://github.com/user-attachments/assets/6ce3e7d0-572d-4e2c-a9e3-c5322d3a8395"/>
-</em></figcaption>
+    <img src="https://githubusercontent.com" alt="Domain Confirmation" width="80%">
+    <figcaption style="margin-top: 10px; color: #8b949e;"><em><img width="994" height="627" alt="2" src="https://github.com/user-attachments/assets/4d362abb-c749-41f4-b8ee-44b5bf6c7556" />
+
   </figure>
 </div>
 
