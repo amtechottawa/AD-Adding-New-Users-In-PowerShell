@@ -74,9 +74,16 @@ Get-AddUser kearl -Properties Title, Department, Enabled | Select Name, SamAccou
 ## What I learned
 
 -Github syntax and powershell basic commands via Windows Server 2025
+
 -Setting up a new user via the gui will result in the same but powershell is faster
+
 -Verifying the accounts with 'Get-AdUser'
+
 -Passwords should never be coded into the scripts
+
+
+
+
 
 
 
