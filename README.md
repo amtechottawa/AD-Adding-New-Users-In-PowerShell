@@ -55,7 +55,14 @@ New-AdUser -Name 'Kenna Earl' -GivenName 'Kenna' -Surname 'Earl' -SamAccountName
 ```powershell
 Get-AddUser kearl -Properties Title, Department, Enabled | Select Name, SamAccountName, Title, Department, Enabled
 ```
-![Verification of account](screenshots/4.png)
+
+<div align="center">
+  <figure>
+    <img src="https://githubusercontent.com" alt="User Creation Verification" width="80%">
+    <figcaption style="margin-top: 10px; color: #8b949e;"><em><div align="center">
+  <figure>
+    <figcaption style="margin-top: 10px; color: #8b949e;"><em><img width="1019" height="477" alt="Screenshot 2026-10-20 184435" src="https://github.com/user-attachments/assets/a8a29939-6c32-4ec6-b629-e21e5e8f2c95" />
+
            
 ##Little Note on Security
 -ChangePasswordAtLogon would normally be set to false so the user could use the temperary password but I chose to change it to true so that when they log in they windows will enact a new password increasing security posture
