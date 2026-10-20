@@ -1,6 +1,6 @@
-# Active Directory Adding A New User With Powershell via VMware 2025
+# Using Adding A New User With Powershell On Active Directory
 ## Summary
-This is a simple guide I created to make a new domain user in Active Directory  using PowerShell on Windows Server 2025, then verified the account and its profile details. 
+This is a simple guide I created to make a new domain user in Active Directory using PowerShell on Windows Server 2025. This is VMware to test it out.
 
 ## Environment 
 -Hypervisor: VMware Workstation
