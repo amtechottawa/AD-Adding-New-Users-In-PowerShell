@@ -10,10 +10,10 @@ This is a simple guide I created to make a new domain user in Active Directory  
 
 ##Steps
 
-###1. Confirm user on powershell
+### 1. Confirm user on powershell
 PS C:\Users\Username> Get-Service
 
-###2. Confirm the Domain
+### 2. Confirm the Domain
 '''powershell
 Get-ADDomain | Select DNSRoot, DistinguishedName
 ```
