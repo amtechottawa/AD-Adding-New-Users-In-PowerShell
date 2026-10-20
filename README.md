@@ -20,22 +20,25 @@ This is a simple guide I created to make a new domain user in Active Directory  
 ![Domain info](screenshot/1.png)
 
 ### 3. Create the User
-'''powershell
--New-ADuser -Name "Kenna Earl" '
--GivenName "Kenna" -Surname "Earl" '
--SamAccount "kearl" '
--UserPrincipalName "kearl@AMTech.local" '
--Title "Help Desk Support" ' 
--Department "IT" '
--Path "CN=Users, DC=AMTech, DC=local" '
--AccountPassword (ReadHost -AsSecureString "Enter password") '
--ChangePasswordAtLogon $true '
--Enable $true
-```
-![Creating the user] (screenshots/2.png)
 
-###4. Confirm in Active Directory Users and Computers
-![User in ADUC] (screenshot/4.png)
+```powershell
+New-AdUser -Name 'Kenna Earl' `
+           -GivenName 'Kenna' `
+           -Surname 'Earl' `
+           -SameAccountName 'kearl' `
+           -UserPrincipalName 'kearl@AMTech.local' `
+           -Title 'Help Desk Support' `
+           -Department 'IT' `
+           -Path 'CN-Users, DC=AMTech, DC=local' `
+           -AccountPassword (Read-Host -AsSecureaString 'Enter password')
+           -ChangePasswordAtLogon $true `
+           -Enabled \$true
+```
+           
+
+           
+
+
 
 
 
