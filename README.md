@@ -13,11 +13,12 @@ This is a simple guide I created to make a new domain user in Active Directory  
 ### 1. Confirm user on powershell
 
 'PS C:\Users\Username> Get-Service'
+![Domain info](screenshot/1.png)
 
 ### 2. Confirm the Domain
 
 'Get-ADDomain | Select DNSRoot, DistinguishedName > Get-Service'
-![Domain info](screenshot/1.png)
+![Domain info](screenshot/2.png)
 
 ### 3. Create the User
 
@@ -33,8 +34,10 @@ New-AdUser -Name 'Kenna Earl' `
            -AccountPassword (Read-Host -AsSecureaString 'Enter password')
            -ChangePasswordAtLogon $true `
            -Enabled \$true
+
 ```
-           
+![Active Directory User Created Successfully](screenshot/3.png)
+
 
            
 
