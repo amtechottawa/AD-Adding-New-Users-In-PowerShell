@@ -19,12 +19,12 @@ This is a simple guide I created to make a new domain user in Active Directory u
   <h3>Verify on PowerShell</h3>
   <br>
   <figure>
-    <img src="https://githubusercontent.com" alt="Verify on PowerShell" width="80%">
+    <img src="<img width="992" height="623" alt="1" src="https://github.com/user-attachments/assets/d425ab0a-128a-4e47-a676-854b2651f9b0" />
+" alt="Verify on PowerShell" width="80%">
     <figcaption style="margin-top: 10px; color: #8b949e;"><em>Screenshot showing the PSVersionTable command output</em></figcaption>
   </figure>
 </div>
 
-<img width="992" height="623" alt="1" src="https://github.com/user-attachments/assets/b88e7eeb-4ce6-4c3e-be31-49c407a0daf4" />
 
 
 ### 2. Confirm the Domain
