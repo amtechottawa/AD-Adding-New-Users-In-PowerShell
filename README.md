@@ -15,8 +15,8 @@ This is a simple guide I created to make a new domain user in Active Directory  
 'PS C:\Users\Username> Get-Service'
 
 ### 2. Confirm the Domain
-'''powershell
-Get-ADDomain | Select DNSRoot, DistinguishedName
+
+'Get-ADDomain | Select DNSRoot, DistinguishedName > Get-Service'
 ```
 ![Domain info](screenshot/1.png)
 
