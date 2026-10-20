@@ -17,9 +17,9 @@ This is a simple guide I created to make a new domain user in Active Directory  
 
 ### 2. Confirm the Domain
 
-'''powershell
+```powershell
 Get-ADDomain | Select Object DNSRoot, DistinguishedName
-'''
+```
 
 ![Domain info](screenshot/2.png)
 
