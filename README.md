@@ -30,12 +30,12 @@ Get-ADDomain | Select Object DNSRoot, DistinguishedName
 New-AdUser -Name 'Kenna Earl' `
            -GivenName 'Kenna' `
            -Surname 'Earl' `
-           -SameAccountName 'kearl' `
+           -SamAccountName 'kearl' `
            -UserPrincipalName 'kearl@AMTech.local' `
            -Title 'Help Desk Support' `
            -Department 'IT' `
-           -Path 'CN-Users, DC=AMTech, DC=local' `
-           -AccountPassword (Read-Host -AsSecureaString 'Enter password')
+           -Path 'CN=Users, DC=AMTech, DC=local' `
+           -AccountPassword (Read-Host -AsSecureString 'Enter password')
            -ChangePasswordAtLogon $true `
            -Enabled \$true
 
