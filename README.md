@@ -4,8 +4,11 @@ This is a simple guide I created to make a new domain user in Active Directory u
 
 ## Environment 
 -Hypervisor: VMware Workstation
+
 -OS: Windows Server 2025
+
 -Server: AM-DC-01 (Domain Controller)
+
 -Domain: AM-Tech.local
 
 ##Steps
