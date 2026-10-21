@@ -3,15 +3,16 @@
 This is a simple guide I created to make a new domain user in Active Directory using PowerShell on Windows Server 2025. This is VMware to test it out.
 
 ## Environment 
--Hypervisor: VMware Workstation
 
--OS: Windows Server 2025
+- Hypervisor: VMware Workstation
 
--Server: AM-DC-01 (Domain Controller)
+- OS: Windows Server 2025
 
--Domain: AM-Tech.local
+- Server: AM-DC-01 (Domain Controller)
 
-##Steps
+- Domain: AM-Tech.local
+
+## Steps
 
 ### 1. Confirm user on powershell
 ```powershell
