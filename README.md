@@ -71,7 +71,7 @@ Get-AddUser kearl -Properties Title, Department, Enabled | Select Name, SamAccou
            
 ## Little Note on Security
 
--ChangePasswordAtLogon would normally be set to false so the user could use the temperary password but I chose to change it to true so that when they log in they windows will enact a new password increasing security posture
+-ChangePasswordAtLogon would normally be set to false so the user could use the temporary password but I chose to change it to true so that when they log in they windows will enact a new password increasing security posture
 
 -The password could be more complex but since this is a simple lab, the default password standards will be in place
 
