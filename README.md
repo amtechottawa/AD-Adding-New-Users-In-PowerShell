@@ -71,20 +71,19 @@ Get-AddUser kearl -Properties Title, Department, Enabled | Select Name, SamAccou
            
 ## Little Note on Security
 
-- ChangePasswordAtLogon would normally be set to false so the user could use the temporary password but I chose to change it to true so that when they log in they windows will enact a new password increasing security posture
+- `ChangePasswordAtLogon` would normally be set to false so the user could use the temporary password, but I chose to change it to true so that when they log in, Windows will require them to create a new password, increasing security posture.
 
-- The password could be more complex but since this is a simple lab, the default password standards will be in place
+- The password could be more complex, but since this is a simple lab, the default password standards will be in place.
 
-## What I learned
+## What I Learned
 
-- Github syntax and powershell basic commands via Windows Server 2025
+- GitHub syntax and basic PowerShell commands via Windows Server 2025
 
-- Setting up a new user via the gui will result in the same but powershell is faster
+- Setting up a new user via the GUI will result in the same outcome, but PowerShell is faster.
 
-- Verifying the accounts with 'Get-AdUser'
+- Verifying the accounts with `Get-ADUser`
 
-- Passwords should never be coded into the scripts
-
+- Passwords should never be coded into scripts.
 
 
 
